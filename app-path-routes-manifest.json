@@ -1,0 +1,11 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/data-master/page": "/data-master",
+  "/settings/page": "/settings",
+  "/product/page": "/product",
+  "/category/page": "/category",
+  "/user/page": "/user",
+  "/category/[slug]/page": "/category/[slug]",
+  "/login/page": "/login"
+}
