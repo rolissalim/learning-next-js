@@ -3,7 +3,7 @@ export const metadata = {
     description: 'Page Login',
 }
 import { Container } from "react-bootstrap"
-import "../styles/index.scss"
+import "../../styles/index.scss"
 
 export default function RootLayout({
     children,
