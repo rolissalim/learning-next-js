@@ -5,7 +5,7 @@ https://nextjs.org/
     - npx create-next-app@latest
 2. routing
     - version < 13
-        use folder in pages example src > pages > data-master-page > index.tsx
+        use folder in pages example src > pages > data-master-page > index.tsx. 
     - version >= 13
         use folder in app default or pages old version  example src > app > data-master > page.tsx
 

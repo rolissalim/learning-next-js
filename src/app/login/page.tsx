@@ -1,11 +1,11 @@
 import React from 'react'
 
-function index() {
+function page() {
     return (
         <div>
-            data master page
+
         </div>
     )
 }
 
-export default index
+export default page

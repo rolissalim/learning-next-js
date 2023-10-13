@@ -1,0 +1,29 @@
+
+.product-image-container {
+    background-color: gray;
+    height: 10rem;
+}
+
+.product.card {
+    height: 22rem;
+}
+
+.product.card img {
+    height: 10rem;
+}
+
+.product-image {
+    height: 65%;
+    width: 65%;
+}
+
+
+.header {
+    background-image: linear-gradient(#E8EBED, #F3F6F9);
+    height: 80px;
+}
+
+.header .title {
+    font-weight: 700;
+    font-size: 2.5rem;
+}

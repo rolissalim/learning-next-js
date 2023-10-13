@@ -1,0 +1,31 @@
+.fit {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.fit-height {
+    object-fit: cover;
+    height: 100%;
+}
+
+
+.container-image-profile {
+    height: 10rem;
+    width: 10rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.fit-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
