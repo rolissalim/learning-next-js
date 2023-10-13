@@ -1,3 +1,4 @@
+'use client'
 import CardBodyCatalog from '@/components/Card/CardBodyCatalog';
 import CardComponent from '@/components/Card/CardComponent';
 import CardImage from '@/components/Card/CardImage';
