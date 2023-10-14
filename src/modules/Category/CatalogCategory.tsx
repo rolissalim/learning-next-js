@@ -10,10 +10,11 @@ import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 
 interface ICatalogCategory {
-    path?: any
+    path: any
+    title?: string
 }
 
-function CatalogCategory({ path }: ICatalogCategory) {
+function CatalogCategory({ path, title = "Data Category" }: ICatalogCategory) {
     const [data, setData] = useState<any>();
     const source = axios.CancelToken.source();
     const route = useRouter()
@@ -45,7 +46,7 @@ function CatalogCategory({ path }: ICatalogCategory) {
 
     return (
         <>
-            <TitlePage title='Data Category' />
+            <TitlePage title={title} />
             <Row>
                 {data?.map((item: any, index: number) =>
                     <Col key={index} lg={3} md={3} sm={6} xs={12} className='pointer mb-2' onClick={() => { handleClick(item) }}>

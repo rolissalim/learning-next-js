@@ -6,8 +6,7 @@ interface ITitlePage {
 function TitlePage({ title }: ITitlePage) {
     return (
         <>
-            <h6 className='mt-2'>{title}</h6>
-            <hr />
+            <h6 className=' my-3 border-bottom'>{title}</h6>
         </>
     )
 }

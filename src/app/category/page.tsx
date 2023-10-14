@@ -11,8 +11,7 @@ function page() {
 
     return (
         <>
-            <TitlePage title='Data Category' />
-            <CatalogCategory path="category" />
+            <CatalogCategory path="category" title="Data Category" />
         </>
     )
 }
