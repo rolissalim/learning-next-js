@@ -7,7 +7,7 @@ interface IInfoRating {
 function InfoRating({ rating }: IInfoRating) {
     return (
         <>
-            <span><i className="fas fa-solid fa-star"></i></span>
+            <span className='text-warning me-1'><i className="fas fa-solid fa-star"></i></span>
             <span>{rating || 0}</span>
         </>
     )

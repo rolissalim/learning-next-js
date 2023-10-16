@@ -53,6 +53,8 @@ const CardCatalogProduct = ({ slug, path = "products.data" }: ICardCatalogProduc
                                 title={item?.title}
                                 short_desc={item?.desc}
                                 price={item?.price}
+                                rating={item?.rating}
+                                stock={item?.stock}
                                 discount={item?.discountPercentage} />
                             {/* <div className='card-footer'>
                                 <div className='d-flex justify-content-between'>
