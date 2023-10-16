@@ -33,8 +33,8 @@ const Header = () => {
                         <Offcanvas.Body>
                             <Nav className="justify-content-start flex-grow-1 pe-3">
                                 <Link href="/" className={`nav-link me-1 ${page == "/" ? "active" : ""}`}>{UpperCaseEachWord("Home")}</Link>
-                                <Link href="/user" className={`nav-link  me-1 ${page == "/user" ? "active" : ""}`}>{UpperCaseEachWord("User")}</Link>
-                                <Link href="/category" className={`nav-link  me-1 ${page == "/category" ? "active" : ""}`}>{UpperCaseEachWord("Category")}</Link>
+                                {/* <Link href="/user" className={`nav-link  me-1 ${page == "/user" ? "active" : ""}`}>{UpperCaseEachWord("User")}</Link> */}
+                                <Link href="/category" className={`nav-link  me-1 ${page.includes("/category") ? "active" : ""}`}>{UpperCaseEachWord("Category")}</Link>
                                 <Link href="/product" className={`nav-link  me-1 ${page == "/product" ? "active" : ""}`}>{UpperCaseEachWord("Product")}</Link>
                             </Nav>
                         </Offcanvas.Body>

@@ -4,7 +4,7 @@ interface IProductName {
 }
 const ProductName = ({ name }: IProductName) => {
     return (
-        <h5 className="card-title">{name}</h5>
+        <h5 className="card-title fs-6">{name}</h5>
     )
 }
 

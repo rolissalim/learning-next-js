@@ -37,7 +37,9 @@ const CardCatalogProduct = ({ slug, path = "products.data" }: ICardCatalogProduc
 
     useEffect(() => {
         getAllData()
-    }, [])
+    }, []),
+
+        console.log("data", data);
 
 
     return (
@@ -47,12 +49,16 @@ const CardCatalogProduct = ({ slug, path = "products.data" }: ICardCatalogProduc
                     <Col className="product mb-3 " key={index} lg={3} md={4} sm={6} xs={12}>
                         <CardComponent classNameBody='p-0' className='shadow-sm'>
                             <CardImage image={item?.thumbnail} />
-                            <CardBodyCatalog title={item?.title} short_desc={item?.desc} />
-                            <div className='card-footer'>
+                            <CardBodyCatalog
+                                title={item?.title}
+                                short_desc={item?.desc}
+                                price={item?.price}
+                                discount={item?.discountPercentage} />
+                            {/* <div className='card-footer'>
                                 <div className='d-flex justify-content-between'>
                                     <Price price={item?.price} />
                                 </div>
-                            </div>
+                            </div> */}
                         </CardComponent>
 
                     </Col>
